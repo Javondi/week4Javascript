@@ -1,3 +1,5 @@
+//ages 
+
 let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 console.log("Ages", ages);
 let minusAge = ages[ages.length - 1] - ages[0];
@@ -21,7 +23,7 @@ console.log("total sum", sumOfAges);
 let average = sumOfAges / ages.length;
 console.log("average", average);
 
-
+//Names average
 let names = ["sam", "tommy", "tim", "sally", "buck", "bob"];
 let totalChars = 0;
 
@@ -31,6 +33,8 @@ for (let i =0; i < names.length; i++) {
 }
 let averageName = totalChars / names.length;
 console.log("average name length", averageName);
+
+//names concat
 
 let concatNames = "";
 for (let i = 0; i < names.length; i++){
@@ -42,6 +46,8 @@ console.log("last element of ages array: ", ages[ages.length -1]);
 
 
 console.log("first element of ages array:", ages[0]);
+
+//name lengths
 
 let nameLengths = [];
 for (let i = 0; i < names.length; i++) {
@@ -69,6 +75,8 @@ fullName("John", "Doe");
 
 let numbers1 = [100, 200, 300, 400]
 let numbers2 = [1, 2, 3, 4]
+
+//numbers array
 
 function sumNumbersArray(array){
     let total = 0;
